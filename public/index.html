@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Text to Video Converter</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Text to Video Converter</h1>
+    <form id="textForm">
+      <textarea id="textInput" placeholder="Paste your text here..." rows="10"></textarea>
+      <button type="submit">Generate Video</button>
+    </form>
+
+    <div id="progressContainer" class="hidden">
+      <p>Generating video... please wait.</p>
+      <div id="progressBar">
+        <div id="progress"></div>
+      </div>
+    </div>
+
+    <div id="result"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
